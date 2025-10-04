@@ -19,6 +19,8 @@ header{
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    padding: 20px 0px;
+
 }
 .logo,
 .menu,
@@ -36,7 +38,6 @@ header{
     display: flex;
     gap: 30px;
     align-items: center;
-    padding: 20px 0px;
 }
 
 .container {
@@ -61,13 +62,13 @@ header{
 .section1{
     background-color: var(--main-color);
     margin: 0 auto;
+    padding: 80px 0;
 }
 .box{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 30px;
-    padding: 80px 0;
     font-weight: bold;
     font-size: 20px;
 }
@@ -94,6 +95,7 @@ header{
 /* section 2 */
 .section2{
     background-color: #fff;
+    padding: 80px 0;
 }
 .title,
 .item{
@@ -104,20 +106,18 @@ header{
 .titlebox{
     display: flex;
     justify-content: center;
-    padding-top: 80px;
-    padding-bottom: 40px;
 }
 .title{
     width: 600px;
     height: 80px;
     font-weight: bold;
     background-color: var(--box-color);
+    margin: 0 auto 40px auto;
 }
 .mainbox6{
     display: grid;
     grid-template-columns: repeat(3, minmax(100px, 380px));
     gap: 30px;
-    padding-bottom: 80px;
 }
 .item{
     background-color: var(--box-color);
@@ -127,12 +127,12 @@ header{
 /* section 3 */
 .section3{
     background-color: var(--main-color);
+    padding: 80px;
 }
 .mainbox5{
     display: grid;
     grid-template-columns: repeat(5, minmax(100px,216px));
     gap: 30px;
-    padding-bottom: 80px;
 }
 .item2{
     background-color: var(--box-color);
@@ -146,12 +146,12 @@ header{
 /* section 4 */
 .section4{
     background-color: #fff;
+    padding: 80px;
 }
 .mainbox4{
     display: grid;
     grid-template-columns: repeat(4, minmax(100px, 277.5px));
     gap: 30px;
-    padding-bottom: 80px;
 }
 .item3{
     text-align: center;
