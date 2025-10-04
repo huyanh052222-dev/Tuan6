@@ -1,0 +1,171 @@
+body{
+    margin: 0;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+:root{
+    --main-color: #F1F1F1;
+    --box-color:#E2E2E2;
+    --bord-box: 8px;
+
+}
+.co{
+    background-color: var(--box-color);
+}
+
+/* Header */
+header{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+.logo,
+.menu,
+.button{
+    align-content: center;
+    text-align: center;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    border-radius: var(--bord-box);
+}
+.nav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.container {
+    width: 95%;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+.logo{
+    width: 200px;
+    height: 60px;
+}
+.menu{
+    flex: 1;
+    height: 34px;
+}
+.button{
+    width: 120px;
+    height: 42px;
+}
+
+/* Section 1 */
+.section1{
+    background-color: var(--main-color);
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    padding: 80px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+.content,
+.image{
+    align-content: center;
+    text-align: center;
+    background-color: var(--box-color);
+    border-radius: var(--bord-box);
+    
+}
+
+.content{
+    width: 585px;
+    height: 267px;
+
+}
+.image{
+    width: 585px;
+    height: 520px;
+
+}
+
+/* section 2 */
+.section2{
+    background-color: #fff;
+}
+.title,
+.item{
+    text-align: center;
+    align-content: center;
+    border-radius: var(--bord-box);
+}
+.titlebox{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    padding-bottom: 40px;
+}
+.title{
+    width: 600px;
+    height: 80px;
+    font-weight: bold;
+    background-color: var(--box-color);
+}
+.mainbox6{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(100px, 380px));
+    gap: 30px;
+    padding-bottom: 80px;
+}
+.item{
+    background-color: var(--box-color);
+    height: 420px;
+    font-weight: bold;
+}
+/* section 3 */
+.section3{
+    background-color: var(--main-color);
+}
+.mainbox5{
+    display: grid;
+    grid-template-columns: repeat(5, minmax(100px,216px));
+    gap: 30px;
+    padding-bottom: 80px;
+}
+.item2{
+    background-color: var(--box-color);
+    border-radius: var(--bord-box);
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+    height: 300px;
+}
+
+/* section 4 */
+.section4{
+    background-color: #fff;
+}
+.mainbox4{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 277.5px));
+    gap: 30px;
+    padding-bottom: 80px;
+}
+.item3{
+    text-align: center;
+    align-content:center ;
+    background-color: var(--box-color);
+    border-radius: var(--bord-box);
+    height: 300px;
+    font-weight: bold;
+}
+/* Footer */
+footer{
+    background-color: var(--main-color);
+    height: 72px;
+    text-align: center;
+    align-content: center;
+    font-weight: bold;
+}
